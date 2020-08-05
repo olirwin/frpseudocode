@@ -1,0 +1,22 @@
+\documentclass[a4paper]{article}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{frpseudocode}
+\begin{document}
+\begin{algorithm}
+\caption{Algorithme d'Euclide}
+\begin{algorithmic}[1]
+\Procedure{Euclide}{$a,b$}
+\Comment{PGCD de a et b}
+\State $r\gets a\bmod b$
+\While{$r\not=0$}\Comment{Si r = 0, on a la réponse}
+\State $a\gets b$
+\State $b\gets r$
+\State $r\gets a\bmod b$
+\EndWhile
+\State \Return $b$\Comment{Le PGCD est b}
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+\end{document}
