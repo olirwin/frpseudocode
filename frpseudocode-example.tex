@@ -20,12 +20,25 @@
 \end{algorithm}
 
 \begin{algorithm}
-\caption{Algorithme d'Euclide}
+\caption{Démonstration boucle pour}
 \begin{algorithmic}[1]
 \Procedure{AfficheurMultiple}{$str$}
 \Comment{Démo boucle pour}
 \State $r\gets a\bmod b$
-\For{$i$}{$0$}{$15$}
+\For{$i < 15$}
+\State Afficher $str$ \Comment{On affiche la chaîne}
+\EndFor
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{Démonstration boucle pour - 2}
+\begin{algorithmic}[1]
+\Procedure{AfficheurMultiple}{$str$}
+\Comment{Démo boucle pour}
+\State $r\gets a\bmod b$
+\ForFT{$i$}{$0$}{$15$}
 \State Afficher $str$ \Comment{On affiche la chaîne}
 \EndFor
 \EndProcedure
