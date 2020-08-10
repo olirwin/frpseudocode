@@ -33,8 +33,8 @@ Made under The LaTeX Project Public License 1.3c
 
 2020-08-09 : Changed algorithm title to french
 
-2020-08-10 : Updated loops
-             Added new type of `for` loop
-             Updated procedure and function style
+2020-08-10 : Updated loops <br>
+             Added new type of `for` loop <br>
+             Updated procedure and function style <br>
              Minor mods to capitalisation
 
