@@ -30,7 +30,9 @@ Made under The LaTeX Project Public License 1.3c
 ## Changelog
 
 2020-08-03 : Initial release
+
 2020-08-09 : Changed algorithm title to french
+
 2020-08-10 : Updated loops
              Added new type of `for` loop
              Updated procedure and function style
